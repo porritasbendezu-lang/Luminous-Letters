@@ -288,7 +288,7 @@ function Sidebar({ tab, setTab, user, settings, onLogout }) {
           <AppLogo src={settings.logoUrl} size={28} className="header-logo" />
           <span>Luminous Letters</span>
         </div>
-        <p className="sidebar-copy">Diseña cartas, sobres y recursos visuales desde un solo lugar.</p>
+        <p className="sidebar-copy">Una nueva carta por dia hasta tu cumple amorcito jejeje.</p>
       </div>
 
       <nav className="nav-list">
@@ -322,7 +322,7 @@ function Topbar({ settings, user }) {
   return (
     <header className="topbar">
       <div>
-        <h2>Cartas con estilo para momentos especiales</h2>
+        <h2>50 love letters and a passionate song</h2>
       </div>
       <div className="topbar-card">
         <Palette size={16} />
