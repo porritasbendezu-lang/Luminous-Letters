@@ -19,7 +19,32 @@
       "updatedAt": "2026-06-11T23:54:44.431Z"
     }
   ],
-  "cards": [],
+  "cards": [
+    {
+      "paperDesignImageUrl": "",
+      "envelopeDesignImageUrl": "",
+      "title": "Nueva carta",
+      "content": "",
+      "fontFamily": "Inter",
+      "fontSize": 18,
+      "lineHeight": 1.7,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "textColor": "#f8fafc",
+      "cardColor": "#161b2e",
+      "backgroundImageUrl": "",
+      "logoImageUrl": "",
+      "sealImageUrl": "",
+      "paperId": "",
+      "envelopeId": "",
+      "id": "c_mqabmj26_szml3p",
+      "createdAt": "2026-06-12T02:42:19.518Z",
+      "updatedAt": "2026-06-12T02:42:19.518Z",
+      "paperColor": "",
+      "envelopeColor": ""
+    }
+  ],
   "papers": [],
   "envelopes": [
     {
@@ -51,6 +76,6 @@
   },
   "meta": {
     "createdAt": "2026-06-11T23:54:44.431Z",
-    "updatedAt": "2026-06-12T01:01:21.065Z"
+    "updatedAt": "2026-06-12T02:42:19.518Z"
   }
 }

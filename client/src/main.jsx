@@ -322,7 +322,7 @@ function Topbar({ settings, user }) {
   return (
     <header className="topbar">
       <div>
-        <h2>50 love letters and a passionate song</h2>
+        <h2>50 love poems and a passionate song</h2>
       </div>
       <div className="topbar-card">
         <Palette size={16} />
@@ -430,7 +430,6 @@ function CardsSection({ user, flash }) {
             </div>
             <div className="card-tile-body">
               <h4>{card.title}</h4>
-              <p>Contenido privado · Ábrela para leerla</p>
             </div>
             <div className="card-tile-foot">
               <span><Eye size={14} /> Abrir</span>
