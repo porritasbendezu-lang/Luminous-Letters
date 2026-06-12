@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luminous Letters</title>
+    <script>
+      (function () {
+        const s = localStorage.getItem('lv_settings');
+        if (s) {
+          try {
+            const settings = JSON.parse(s);
+            document.documentElement.dataset.theme = settings.theme || 'midnight';
+            if (settings.pageBg) document.documentElement.style.setProperty('--page-bg', `url(${settings.pageBg})`);
+          } catch (e) {}
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

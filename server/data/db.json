@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "username": "admin",
+      "passwordHash": "$2a$10$rOzpYsgHBQMb0zMrl3B/ZuH9U11vwj8sHaWqXzxHomu9Ya0TxWW/O",
+      "role": "admin",
+      "displayName": "Administrador",
+      "createdAt": "2026-06-11T23:54:44.431Z",
+      "updatedAt": "2026-06-11T23:54:44.431Z"
+    },
+    {
+      "id": "u_user",
+      "username": "Luana",
+      "passwordHash": "$2b$10$zYzpQm3Dc7qdv5HFtLUmLOrzLlcvBMUwYqYB7lYy/M/9jFCMOJpve",
+      "role": "viewer",
+      "displayName": "Luana",
+      "createdAt": "2026-06-11T23:54:44.431Z",
+      "updatedAt": "2026-06-11T23:54:44.431Z"
+    }
+  ],
+  "cards": [],
+  "papers": [],
+  "envelopes": [
+    {
+      "designImageUrl": "",
+      "id": "e_night",
+      "name": "Sobre nocturno",
+      "description": "Oscuro y moderno para cartas premium.",
+      "color": "#1e293b",
+      "createdAt": "2026-06-11T23:54:44.431Z",
+      "updatedAt": "2026-06-11T23:54:44.431Z"
+    },
+    {
+      "designImageUrl": "",
+      "id": "e_rose",
+      "name": "Sobre rosado",
+      "description": "Más suave y romántico.",
+      "color": "#b48ab9",
+      "createdAt": "2026-06-11T23:54:44.431Z",
+      "updatedAt": "2026-06-11T23:54:44.431Z"
+    }
+  ],
+  "settings": {
+    "theme": "midnight",
+    "accent": "#19d416",
+    "radius": 25,
+    "compact": true,
+    "pageBg": "/uploads/1781222134440-Fondo2.png",
+    "logoUrl": "/uploads/1781222121706-LL.png"
+  },
+  "meta": {
+    "createdAt": "2026-06-11T23:54:44.431Z",
+    "updatedAt": "2026-06-12T01:01:21.065Z"
+  }
+}
